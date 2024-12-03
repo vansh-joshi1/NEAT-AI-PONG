@@ -18,7 +18,7 @@ pip3 install numpy
 
 ### Train AI
 ```python
-# In pong.py:
+# In main.py:
 run_neat(config)  # Uncomment
 # test_best_network(config)  # Comment out
 ```
@@ -28,7 +28,7 @@ python pong.py
 
 ### Play vs AI
 ```python
-# In pong.py:
+# In main.py:
 # run_neat(config)  # Comment out
 test_best_network(config)  # Uncomment
 ```
